@@ -1,251 +1,179 @@
 <!DOCTYPE html>
 <html>
-
-    <head>
-        <meta name="viewport" content="initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
-        <script src="https://use.fontawesome.com/0379bd2ee9.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    </head>
+<title>Art Gallery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://mahajan-pooja.github.io/Art-Gallery/art_gallery.css">
+<link rel="icon" href="logo.png" type="image/jpg" sizes="16x16">
 
 <body>
-    
-      <nav class="navbar navbar-custom navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
+
+<!-- Navbar (sit on top) -->
+<div class="top">
+  <div class="bar white wide padding card">
+
+    <a href="#home" class="bar-item button"><img src="logo.png" width="6%" height="6%">&nbsp<b>Art</b> Gallery</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="right hide-small">
+      <a href="#projects" class="bar-item button">Gallery</a>
+      <a href="#about" class="bar-item button">Artists</a>
+      <a href="#contact" class="bar-item button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="display-container content wide" style="max-width:1500px;" id="home">
+  <img class="image" src="img.jpg" alt="image" width="1500" height="800">
+  <div class="display-middle margin-top center">
+    <h1 class="xxlarge text-white"><span class="padding black opacity-min"><b>Art</b></span> <span class="hide-small text-light-grey">Gallery</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="content padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="container padding-32" id="projects">
+    <h3 class="border-bottom border-light-grey padding-16"><img src="logo.png" width="2%" height="2%"> Gallery</h3>
+  </div>
+
+  <div class="row-padding">
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Pink Fall</div>
+        <img src="i1.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Sun Shine</div>
+        <img src="i2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Paris Memo</div>
+        <img src="i3.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Barn House</div>
+        <img src="i4.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="row-padding">
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Romance ride</div>
+        <img src="i5.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Life stranger</div>
+        <img src="i6.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Jungle king</div>
+        <img src="i7.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Love & life</div>
+        <img src="i8.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="container padding-32" id="about">
+    <h3 class="border-bottom border-light-grey padding-16"><img src="logo.png" width="2%" height="2%"> Artists</h3>
+    <p style="text-align: center;">Art gallery was started in 2002 to assist clients with enhancing the spaces in which we all work, live, play and rejuvenate with original artwork. We are a wholesale-to-the-trade all original artwork resource. As a small, independent business, we understand the importance of partnering with our clients in an effort to be creative, efficient and thorough and ultimately to please the end user. We look forward to working with you and growing our businesses together while adding to the aesthetic of the environments around us.
+    </p>
+  </div>
+
+  <div class="row-padding grayscale">
+    <div class="col l3 m6 margin-bottom">
+      <img src="a1.jpg" alt="John" style="width:100%;">
+      <h3>John Doe</h3>
+      <p class="opacity">Massachusetts</p>
+      <p>John Doe was born in Marion, Massachusetts. He served in the US Navy in the First World War, then worked on a ranch in Colorado, before moving to New York City to study art. For many years he lived and painted in Denver, Colorado and Summit.</p>
+      <p><button class="button light-grey block">Contact</button></p>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <img src="a2.jpg" alt="Jane" style="width:100%;">
+      <h3>Jane Doe</h3>
+      <p class="opacity">Los Angeles</p>
+      <p>Jane Doe was born in Marion, Massachusetts. He served in the US Navy in the First World War, then worked on a ranch in Colorado, before moving to New York City to study art. </p>
+      <p><button class="button light-grey block">Contact</button></p>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <img src="a3.jpg" alt="Mike" style="width:100%">
+      <h3>Mike Ross</h3>
+      <p class="opacity">San Diego</p>
+      <p>Mike Ross is an American painter. Her works, often introspective and spiritual in nature, and her style is considered a contributing factor to the Southern California Modernism.</p>
+      <p><button class="button light-grey block">Contact</button></p>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <img src="a4.jpg" alt="Dan" style="width:100%">
+      <h3>Dan Star</h3>
+      <p class="opacity">San Jose</p>
+      <p>Dan Star is an American painter. Her works, often introspective and spiritual in nature, and her style is considered a contributing factor to the Southern California Modernism and California Impressionism movement</p>
+      <p><button class="button light-grey block">Contact</button></p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="container padding-32" id="contact">
+    <h3 class="border-bottom border-light-grey padding-16"><img src="logo.png" width="2%" height="2%"> Contact</h3>
+    <p>Lets get in touch and talk about your and our next project.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="input" type="text" placeholder="Name" required name="Name">
+      <input class="input section" type="text" placeholder="Email" required name="Email">
+      <input class="input section" type="text" placeholder="Subject" required name="Subject">
+      <input class="input section" type="text" placeholder="Comment" required name="Comment">
+      <button class="button black section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
       </button>
-      <a class="navbar-brand" href="#">Cassie Graf</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#home">Home</a></li>
-        <li><a href="#commissioned">Commissioned</a></li>
-        <li><a href="#curated">Curated</a></li> 
-        <li><a href="#artiststatement">Artist Statement</a></li> 
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#message"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
-      </ul>
-    </div>
+    </form>
   </div>
-</nav>
-   
-    <div id="home"></div>
-    
-    <div class= "homecard">
-        <h1>Cassandra Graf</h1>
-        <h2>Fine Artist</h2>
-        <h3>Commissioned and Curated</h3>
-    </div>
-    
-    <div  class="social">
-    <ul>
-        <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-lg fa-pinterest"></i></a></li>
-        <li><a href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
-    </ul>
-</div>
-    
-<div id="commissioned"></div>
-    
-    <div  class= "homecard">
-    <h2>Commissioned Works</h2>
-    </div>
-    
-        <div class="responsive">
-  <div class="img">
-    <a target="_blank" href="Petcom1.jpg">
-      <img src="Petcom1.jpg" alt="Commissioned pet portrait" width="300px" height="200px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-        </div> 
-    
-            <div class="responsive">
-  <div class="img">
-    <a target="_blank" href="Petcom2.jpg">
-      <img src="Petcom2.jpg" alt="Commissioned pet portrait" width="300px" height="200px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-            <div class="responsive">
-  <div class="img">
-    <a target="_blank" href="Petcom5.jpg">
-      <img src="Petcom5.jpg" alt="Commissioned pet portrait" width="300px" height="200px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-      
-        <div class="responsive">
-  <div class="img">
-    <a target="_blank" href="Petcom6.jpg">
-      <img src="Petcom6.jpg" alt="Commissioned pet portrait" width="300px" height="200px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-    
-        <div class="responsive">
-  <div class="img">
-    <a target="_blank" href="Petcom3.jpg">
-      <img src="Petcom3.jpg" alt="Commissioned pet portrait" width="300px" height="200px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
+  
+<!-- End page content -->
 </div>
 
+<!-- Google Map -->
+<div id="googleMap" class="grayscale" style="width:100%;height:450px;"></div>
 
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="Petcom4.jpg">
-      <img src="Petcom4.jpg" alt="Commissioned pet portrait" width="300px" height="200px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
+<!-- Footer -->
+<footer class="center black padding-16">
+  <p>Copyright © Pooja Mahajan.</p>
+</footer>
 
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href= "Petcom7.jpg">
-      <img src="Petcom7.jpg" alt="Commissioned pet portrait" width="300px" height="200px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="Petcom8.jpg">
-      <img src="Petcom8.jpg" alt="Commissioned pet portrait" width="300px" height="200px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-        
-        <div class="responsive">
-  <div class="img">
-    <a target="_blank" href="Petcom9.jpg">
-      <img src="Petcom9.jpg" alt="Commissioned pet portrait" width="300px" height="200px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="Petcom10.jpg">
-      <img src="Petcom10.jpg" alt="Commissioned pet portrait" width="300px" height="200px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="Petcom11.jpg">
-      <img src="Petcom11.jpg" alt="Commissioned pet portrait" width="300px" height="200px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="clearfix"></div>
-    
-    <div id="curated"></div>
-    
-    <div class= "homecard">
-    <h2>Curated Pieces</h2>
-    </div>
-    
-    <div class="responsive">
-  <div class="img">
-    <a target="_blank" href="skeleton.jpg">
-      <img src="skeleton.jpg" alt="skeleton art painting" width="300px" height="200px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="img">
-    <a target="_blank" href="rose.png">
-      <img src="rose.png" alt="rose art painting" width="300px" height="200px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-    
-    <div class="clearfix"></div>
-    
-    <div id= "artiststatement"></div>
-    
-    <div class= "homecard">
-        <h2>Artist Statement</h2>
-    </div>
-    
-<div class="responsive2">
-  <div class="img">
-    <a target="_blank" href="charliechaplin.jpg">
-      <img src="charliechaplin.jpg" alt="charlie chaplin" width="538px" height="720px">
-    </a>
-    <div class="desc">Cassandra Graf is a graduate of Herron School of Art and Design, Indianapolis. She currently resides in Fort Wayne, Indiana, where she specializes in creating unique, customized portraits of pets for patrons. She also works to create powerful emotional connections through one of a kind original pieces.</div>
-  </div>
-</div>
-    
-    <div class="clearfix"</div>
-    
-    <div id="message"></div>
-    
-    <div class= "homecard">
-        <h2>Get in Touch...</h2>
-    </div>
-    
-    <div class="contact">
-    <form id="contact-form" action="MAILTO:grafcassie05@gmail.com" method="post">
-  <div>
-    <label>
-      <span>Name:</span>
-      <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
-    </label>
-  </div>
-  <div>
-    <label>
-      <span>Email:</span>
-      <input placeholder="iloveart@email.com" type="email" tabindex="2" required autofocus>
-    </label>
-  </div>
-  <div>
-    <label>
-      <span>Telephone:</span>
-      <input placeholder="(123) 456-7890" type="tel" tabindex= "3" >
-    </label>
-  </div>
-  <div>
-    <label>
-      <span>Details:</span>
-      <textarea placeholder="Penny for your thoughts..." tabindex="4" required></textarea>
-    </label>
-  </div>
-  <div>
-    <button name="Send" type="submit" id="contact-submit">Send to Cassie</button>
-  </div>
-</form>
-    </div>
-    
-    <div class="footer">
-    </div>
-    
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLyXoOkpqORGBtV7oTcQjQioVk1fNhB4s&callback=myMap"></script>
 </body>
 </html>
